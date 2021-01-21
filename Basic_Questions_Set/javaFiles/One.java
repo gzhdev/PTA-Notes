@@ -6,11 +6,10 @@ public class One {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double sample_cm = sc.nextInt();
-        double mid;
-        mid = Math.floor((sample_cm / 100) / 0.3084);
         int foot,inch;
-        foot = (int) mid;
-        inch = (int) ((mid-foot)*12);
+        foot = (int) (sample_cm / 30.48);
+        inch = (int) (((sample_cm / 30.48) - foot) * 12);
         System.out.println(foot+ " " + inch);
+        sc.close();
     }
 }

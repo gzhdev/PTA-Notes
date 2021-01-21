@@ -3,19 +3,25 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-  
     {
-      "type": "java",
-      "name": "Debug (Launch) - Current File",
-      "request": "launch",
-      "mainClass": "${file}"
+        "type": "java",
+        "name": "CodeLens (Launch) - One",
+        "request": "launch",
+        "mainClass": "Basic_Questions_Set.javaFiles.One",
+        "projectName": "PTA-Notes_dffe44ee"
     },
     {
-      "type": "java",
-      "name": "Debug (Launch)-One<PTA-Notes_dffe44ee>",
-      "request": "launch",
-      "mainClass": "基础编程题目集.One",
-      "projectName": "PTA-Notes_dffe44ee"
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+    },
+    {
+        "type": "java",
+        "name": "Debug (Launch)-One<PTA-Notes_dffe44ee>",
+        "request": "launch",
+        "mainClass": "基础编程题目集.One",
+        "projectName": "PTA-Notes_dffe44ee"
     }
-  ]
+]
 }
