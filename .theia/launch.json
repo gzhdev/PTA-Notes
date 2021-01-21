@@ -11,6 +11,13 @@
         "projectName": "PTA-Notes_dffe44ee"
     },
     {
+      "name": "Python: 当前文件",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
         "type": "java",
         "name": "Debug (Launch) - Current File",
         "request": "launch",
