@@ -1,4 +1,4 @@
-sample_cm=eval(input())//1
-foot=n//1
-inch=((n-foot)*12)//1
+sample_cm=eval(input())
+foot=sample_cm // 30.48
+inch=int(((sample_cm / 30.48) - foot) * 12)
 print("%d %d"%(foot,inch))  
